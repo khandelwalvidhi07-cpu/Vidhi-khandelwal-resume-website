@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidhi Khandelwal - Resume</title>
+
+  <!-- adding fonts from google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <!-- icons library -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- linking my css style file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- navigation bar at the top -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <p class="nav-name">Vidhi Khandelwal</p>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- main header with my name and photo -->
+  <header id="hero">
+    <div class="hero-container">
+
+      <!-- profile photo - ++++++++remember to add a profile picture. File name should be named profile.jpg -->
+      <div class="hero-photo">
+        <img src="profile.jpg" alt="Vidhi Khandelwal" />
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-hello">Hello, I am</p>
+        <h1 class="hero-name">Vidhi Khandelwal</h1>
+        <p class="hero-tagline">BBA-DBE Student at IIM Bangalore &nbsp;&middot;&nbsp; Aspiring Portfolio Entrepreneur &nbsp;&middot;&nbsp; AI &amp; Finance Enthusiast</p>
+
+        <!-- small label things for interests -->
+        <div class="hero-tags">
+          <span class="tag"><i class="fa-solid fa-brain"></i> AI Automation</span>
+          <span class="tag"><i class="fa-solid fa-chart-line"></i> CFA Level 1 Prep</span>
+          <span class="tag"><i class="fa-solid fa-code"></i> Learning to Code</span>
+          <span class="tag"><i class="fa-solid fa-globe"></i> Culture Enthusiast</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- about me sectuon -->
+  <section id="about">
+    <div class="section-container">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-heading">About <em>Me</em></h2>
+      <div class="underline"></div>
+
+      <!-- layout -->
+      <div class="about-grid">
+
+        <div class="about-text">
+          <p>I am a highly responsible and perceptive individual currently pursuing a BBA in Digital Business and Entrepreneurship from IIM Bangalore. I aspire to become a portfolio entrepreneur, building ventures across industries that genuinely interest me.</p>
+          <p>My interests include sustainable development, artificial intelligence, fashion, and finance. I think the most interesting opportunities come from combining different fields together.</p>
+          <p>Right now I am learning Python and data analysis, while also preparing for the CFA Level 1 exam and exploring AI automation as my first step into entrepreneurship.</p>
+        </div>
+
+        <!-- cards for each interest -->
+        <div class="about-cards">
+          <div class="interest-card">
+            <i class="fa-solid fa-seedling"></i>
+            <h4>Sustainable Dev</h4>
+            <p>Building with purpose</p>
+          </div>
+          <div class="interest-card">
+            <i class="fa-solid fa-robot"></i>
+            <h4>AI &amp; Tech</h4>
+            <p>AI automation skills</p>
+          </div>
+          <div class="interest-card">
+            <i class="fa-solid fa-coins"></i>
+            <h4>Finance</h4>
+            <p>CFA Level 1 aspirant</p>
+          </div>
+          <div class="interest-card">
+            <i class="fa-solid fa-shirt"></i>
+            <h4>Fashion</h4>
+            <p>Eye for aesthetics</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- education -->
+  <section id="education">
+    <div class="section-container">
+      <p class="section-label">Academic Background</p>
+      <h2 class="section-heading"><em>Education</em></h2>
+      <div class="underline"></div>
+
+      <!-- college -->
+      <article class="edu-card">
+        <div class="edu-top">
+          <div>
+            <h3 class="edu-degree">BBA &mdash; Digital Business &amp; Entrepreneurship</h3>
+            <p class="edu-school"><i class="fa-solid fa-building-columns"></i> Indian Institute of Management (IIM) Bangalore &mdash; Online Programme</p>
+          </div>
+          <span class="edu-year">2024 &ndash; Present</span>
+        </div>
+        <p class="edu-detail">Pursuing a business degree focused on digital transformation and entrepreneurship at one of India's most respected management institutions.</p>
+      </article>
+
+      <!-- school -->
+      <article class="edu-card">
+        <div class="edu-top">
+          <div>
+            <h3 class="edu-degree">Senior Secondary &mdash; Commerce (CBSE)</h3>
+            <p class="edu-school"><i class="fa-solid fa-school"></i> Shanti Asiatic School, Jaipur</p>
+          </div>
+          <span class="edu-year">Completed 2024</span>
+        </div>
+
+        <!-- board exam scores -->
+        <div class="score-row">
+          <span class="score-badge"><i class="fa-solid fa-star"></i> Grade 12 &mdash; 97%</span>
+          <span class="score-badge"><i class="fa-solid fa-star"></i> Grade 10 &mdash; 94%</span>
+        </div>
+
+        <p class="edu-achievement"><i class="fa-solid fa-award"></i> Discipline Head &mdash; Grade 12</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- work experience -->
+  <section id="experience">
+    <div class="section-container">
+      <p class="section-label">Professional Journey</p>
+      <h2 class="section-heading">Work <em>Experience</em></h2>
+      <div class="underline"></div>
+
+      <article class="exp-card">
+        <div class="exp-top">
+          <div>
+            <h3 class="exp-title">Bio CBG Data Analyst</h3>
+            <p class="exp-company"><i class="fa-solid fa-building"></i> Transtech Punjab Bio CBG &mdash; Globus Power Generation Ltd.</p>
+            <p class="exp-duration"><i class="fa-solid fa-clock"></i> Current Internship &middot; March 2026 &ndash; Present</p>
+          </div>
+          <span class="exp-badge">Internship</span>
+        </div>
+
+        <!-- list of what i do at the internship -->
+        <ul class="exp-list">
+          <li>Analysing data related to Bio Compressed Biogas (CBG) operations to support production decisions.</li>
+          <li>Using MS Excel and Power BI to organise, visualise, and interpret operational data.</li>
+          <li>Helping the team find patterns in large datasets to improve efficiency.</li>
+          <li>Applying beginner Python skills for basic data tasks as part of ongoing learning.</li>
+          <li>Gaining hands-on experience in the renewable energy sector, specifically biogas power generation.</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- projects - will fill this in later -->
+  <section id="projects">
+    <div class="section-container">
+      <p class="section-label">What I Have Built</p>
+      <h2 class="section-heading"><em>Projects</em></h2>
+      <div class="underline"></div>
+
+      <div class="projects-empty">
+        <i class="fa-regular fa-folder-open"></i>
+        <h3>Projects Coming Soon</h3>
+        <p>I am at the beginning of my coding and AI automation journey. This section will be updated as I complete projects.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- skills section with a table -->
+  <section id="skills">
+    <div class="section-container">
+      <p class="section-label">Capabilities</p>
+      <h2 class="section-heading">Skills &amp; <em>Tools</em></h2>
+      <div class="underline"></div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Category</th>
+              <th>Level</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Python</td>
+              <td>Programming</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 30%;"></div>
+                  </div>
+                  <span>Beginner</span>
+                </div>
+              </td>
+              <td><span class="status-tag learning">Learning</span></td>
+            </tr>
+            <tr>
+              <td>Microsoft Excel</td>
+              <td>Data Tools</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 60%;"></div>
+                  </div>
+                  <span>Intermediate</span>
+                </div>
+              </td>
+              <td><span class="status-tag">Proficient</span></td>
+            </tr>
+            <tr>
+              <td>Power BI</td>
+              <td>Data Visualisation</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 35%;"></div>
+                  </div>
+                  <span>Beginner</span>
+                </div>
+              </td>
+              <td><span class="status-tag learning">Learning</span></td>
+            </tr>
+            <tr>
+              <td>Data Analysis</td>
+              <td>Analytics</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 30%;"></div>
+                  </div>
+                  <span>Beginner</span>
+                </div>
+              </td>
+              <td><span class="status-tag learning">In Progress</span></td>
+            </tr>
+            <tr>
+              <td>Fast Learning</td>
+              <td>Soft Skill</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 95%;"></div>
+                  </div>
+                  <span>Expert</span>
+                </div>
+              </td>
+              <td><span class="status-tag">Strength</span></td>
+            </tr>
+            <tr>
+              <td>Attention to Detail</td>
+              <td>Soft Skill</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;"></div>
+                  </div>
+                  <span>Expert</span>
+                </div>
+              </td>
+              <td><span class="status-tag">Strength</span></td>
+            </tr>
+            <tr>
+              <td>Perception &amp; Insight</td>
+              <td>Soft Skill</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;"></div>
+                  </div>
+                  <span>Expert</span>
+                </div>
+              </td>
+              <td><span class="status-tag">Strength</span></td>
+            </tr>
+            <tr>
+              <td>AI Automation</td>
+              <td>Emerging Tech</td>
+              <td>
+                <div class="skill-bar-wrap">
+                  <div class="skill-bar">
+                    <div class="skill-fill" style="width: 25%;"></div>
+                  </div>
+                  <span>Beginner</span>
+                </div>
+              </td>
+              <td><span class="status-tag learning">Exploring</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- hobbies -->
+  <section id="hobbies">
+    <div class="section-container">
+      <p class="section-label">Beyond the Resume</p>
+      <h2 class="section-heading">Hobbies &amp; <em>Interests</em></h2>
+      <div class="underline"></div>
+
+      <!-- hobby cards layout situation -->
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <i class="fa-solid fa-earth-asia"></i>
+          <h4>Cultural Explorer</h4>
+          <p>Fascinated by world cultures, traditions and practices</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h4>Sketching</h4>
+          <p>Visual art and creative expression</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fa-solid fa-music"></i>
+          <h4>Singing</h4>
+          <p>A love for music and melody</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fa-solid fa-guitar"></i>
+          <h4>Guitar</h4>
+          <p>Beginner guitarist &mdash; 2 songs and counting!</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fa-solid fa-language"></i>
+          <h4>Languages</h4>
+          <p>Learning new languages for fun and connection</p>
+        </div>
+        <div class="hobby-card">
+          <i class="fa-solid fa-landmark"></i>
+          <h4>MUN</h4>
+          <p>Participated in 2 Model United Nations conferences</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact">
+    <div class="section-container">
+      <p class="section-label">Get in Touch</p>
+      <h2 class="section-heading"><em>Contact</em> Me</h2>
+      <div class="underline"></div>
+
+      <div class="contact-grid">
+
+        <a href="tel:+910987654321" class="contact-card">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="contact-info">
+            <p class="contact-label">Phone</p>
+            <p class="contact-value">+91 84420 20202</p>
+          </div>
+        </a>
+
+        <a href="mailto:yourmail@example.com" class="contact-card">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="contact-info">
+            <p class="contact-label">Email</p>
+            <p class="contact-value">khandelwalvidhi07@gmail.com</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <p class="footer-name">Vidhi Khandelwal</p>
+    <p>Aspiring Portfolio Entrepreneur &nbsp;&middot;&nbsp; BBA-DBE, IIM Bangalore</p>
+    <p class="footer-copy">&copy; 2025 Vidhi Khandelwal. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
